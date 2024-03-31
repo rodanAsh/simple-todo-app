@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: slategrey;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task-input{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.task-input>input{
+    width: 300px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.task-list{
+    background-color: #ccc;
+    width: 80%;
+    height: max-content;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px;
+}
+
+.task>h3{
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.task>div{
+    display: flex;
+    gap: 5px;
+}
+
+.btn{
+    color: #fff;
+    padding: 8px 10px;
+    width: max-content;
+    border: none;
+    border-radius: 4px;
+}
+
+.red{
+    background-color: #ef5454;
+}
+
+.btn.red:hover{
+    background-color: #f13636;
+}
+
+.blue{
+    background-color: #6565c1;
+}
+
+.btn.blue:hover{
+    background-color: #4b4bdb;
+}
+
+.green{
+    background-color: #70da70;
+}
+
+.btn.green:hover{
+    background-color: #4cce4c;
+}
